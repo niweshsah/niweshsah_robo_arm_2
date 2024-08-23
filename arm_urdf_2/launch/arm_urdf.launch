@@ -7,7 +7,7 @@
  <arg name="arg_Y" default="0.00" /> 
   
  <!--Urdf file path--> 
- <param name="robot_description" textfile="$(find arm_urdf)/urdf/arm_urdf.urdf"/> 
+ <param name="robot_description" textfile="$(find arm_urdf_2)/urdf/arm_urdf.urdf"/> 
 
  <!--spawn a empty gazebo world--> 
  <include file="$(find gazebo_ros)/launch/empty_world.launch" /> 

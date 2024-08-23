@@ -53,13 +53,13 @@ class MyRobot:
         # Create a new goal pose slightly different from the current pose
         pose_goal = geometry_msgs.msg.Pose()
         pose_goal.orientation = current_pose.orientation
-        # pose_goal.position.x = current_pose.position.x + offset_x
-        # pose_goal.position.y = current_pose.position.y + offset_y
-        # pose_goal.position.z = current_pose.position.z + offset_z
+        pose_goal.position.x = current_pose.position.x + offset_x
+        pose_goal.position.y = current_pose.position.y + offset_y
+        pose_goal.position.z = current_pose.position.z + offset_z
 
-        pose_goal.position.x = 0.0884937
-        pose_goal.position.y = 0.344373
-        pose_goal.position.z = 0.781796
+        # pose_goal.position.x = 0.0884937
+        # pose_goal.position.y = 0.344373
+        # pose_goal.position.z = 0.781796
 
         # Set the goal pose and plan to it
         self._group.set_pose_target(pose_goal)
