@@ -50,7 +50,13 @@ Install the above command if ros controller is not moving
 
 5. **Launch the file**
 
+   Go to below launch file and uncomment the rviz portion from the launch file, if you also want to launch rviz
+
    ```bash
     roslaunch moveit_pkg_2 full_robot_arm_launch.launch
    ```
 
+
+## Teleop code
+
+ Open a new terminal and rosrun the codes in /arm_teleop_2/src folder. Work is under progress so they are giving errors
