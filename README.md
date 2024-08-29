@@ -23,7 +23,7 @@ Install the above packages
 2.  **Clone the Repository**
 
     ```bash
-    git clone https://github.com/niweshsah/Task2_Deimos_NiweshSah.git
+    git clone https://github.com/niweshsah/niweshsah_robo_arm_2.git
     ```
 
 3. **Build the Package**
