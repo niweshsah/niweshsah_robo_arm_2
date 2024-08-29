@@ -2,6 +2,7 @@
 
 ```bash
 sudo apt-get install ros*controller*
+sudo apt install ros-noetic-trac-ik
 ```
 
 Install the above command if ros controller is not moving
