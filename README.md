@@ -40,7 +40,6 @@ Install the above packages
 
      ```bash
     source /opt/ros/noetic/setup.bash
-     export TURTLEBOT3_MODEL=burger
      source ~/catkin_ws/devel/setup.bash
      ```
 
