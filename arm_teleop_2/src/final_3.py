@@ -56,11 +56,12 @@ class MyRobot:
         # pose_goal.header.frame_id = "link_3"
 
         pose_goal.orientation = current_pose.orientation
+        print(pose_goal)
         # pose_goal.pose.orientation = current_pose.pose.orientation  # Corrected line
-        pose_goal.position.x = current_pose.position.x + offset_x
-        pose_goal.position.y = current_pose.position.y + offset_y
-        pose_goal.position.z = current_pose.position.z + offset_z
-
+        pose_goal.position.x = current_pose.position.x + 0.3
+        pose_goal.position.y = current_pose.position.y + 0.3
+        pose_goal.position.z = current_pose.position.z + 0.3
+        print(pose_goal)
         # pose_goal.position.x = 0.0884937
         # pose_goal.position.y = 0.344373
         # pose_goal.position.z = 0.781796
